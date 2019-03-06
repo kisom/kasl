@@ -1,0 +1,28 @@
+{
+	"name": "kasl",
+	"description": "kyle's arduino standard library",
+	"authors": {
+		"name": "Kyle Isom",
+		"email": "coder@kyleisom.net",
+		"url": "https://kyleisom.net"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com.com/kisom/kasl.git"
+	
+	},
+	"version": "1.0.0",
+	"license": "MIT",
+	"frameworks": [
+		"arduino"
+	],
+	"platforms": "*",
+	"dependencies": [{
+		"name": "Scheduler",
+		"platforms": ["atmelsam"]
+	},
+	{
+		"name": "TaskScheduler",
+		"platforms": ["atmelavr", "espressif8266"]
+	}]
+}
