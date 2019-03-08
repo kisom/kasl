@@ -33,7 +33,7 @@ startScheduler()
 
 
 void
-schedulerThread(void (*thread)())
+scheduleThread(void (*thread)())
 {
 	if (taskCount < MAX_TASKS) {
 		tasks[taskCount].setIterations(TASK_FOREVER);
