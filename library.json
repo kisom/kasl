@@ -20,7 +20,11 @@
     "frameworks": [
         "arduino"
     ],
-    "platforms": "*",
+    "platforms": [
+        "atmelsam",
+        "atmelavr",
+        "espressif8266"
+    ],
     "dependencies": [
         {
             "name": "Scheduler",
