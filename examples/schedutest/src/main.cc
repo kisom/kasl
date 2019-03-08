@@ -35,17 +35,16 @@ setup()
 {
 	Serial.begin(9600);
 	while (!Serial) ;
-	delay(10000);
 
-	scheduleThread(thread_a);
-	scheduleThread(thread_b);
-	startScheduler();
+	kasl::scheduleThread(thread_a);
+	kasl::scheduleThread(thread_b);
+	kasl::startScheduler();
 }
 
 
 void
 loop()
 {
-	runScheduler();
+	kasl::runScheduler();
 	Serial.print(".");
 }
