@@ -4,6 +4,9 @@
 #include <kasl/scheduling.h>
 
 
+namespace kasl {
+
+
 #ifndef SCHEDULER_FREQUENCY
 #define SCHEDULER_FREQUENCY	50
 #endif // SCHEDULER_FREQUENCY
@@ -51,4 +54,5 @@ runScheduler()
 }
 
 
+} // namespace kasl
 #endif // !defined(ATMELSAMD)

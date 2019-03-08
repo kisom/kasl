@@ -4,6 +4,9 @@
 #include <kasl/scheduling.h>
 
 
+namespace kasl {
+
+
 void
 startScheduler()
 {
@@ -24,4 +27,7 @@ runScheduler()
 {
 	// The Arduino scheduler already handles this.
 }
+
+
+} //namespace kasl
 #endif // defined(ATMELSAMD) && !defined(DISABLE_ARDUINO_SCHEDULER)

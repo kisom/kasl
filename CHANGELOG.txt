@@ -1,4 +1,8 @@
-2019-05-06 - v1.0.0
+2019-03-08 - v1.0.1
+
+  + Move scheduling to the kasl namespace.
+
+2019-03-06 - v1.0.0
 
   + Initial release.
 

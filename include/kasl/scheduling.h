@@ -5,6 +5,9 @@
 #include <Arduino.h>
 
 
+namespace kasl {
+
+
 static inline void
 yieldFor(unsigned long ms)
 {
@@ -23,4 +26,5 @@ void	scheduleThread(void (*thread)());
 void	runScheduler();
 
 
+} // namespace kasl
 #endif //  __FEATHERLIB_SCHEDULING_H
