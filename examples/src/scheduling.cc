@@ -37,8 +37,8 @@ setup()
 	while (!Serial) ;
 	delay(10000);
 
-	startThread(thread_a);
-	startThread(thread_b);
+	scheduleThread(thread_a);
+	scheduleThread(thread_b);
 	startScheduler();
 }
 
